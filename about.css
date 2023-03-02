@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.cart{
+    height: 20px;
+}
+
+.wrapper{
+    display: flex;
+ }
+ .logo{
+    height: 50px;
+   }
+#header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: lavenderblush    ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style:  none;
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+}
+#navbar li a:hover{
+    color: burlywood;
+}
